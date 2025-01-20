@@ -1,0 +1,64 @@
+/* 전체 컨테이너 */
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 배경 이미지 */
+  .movie-backdrop {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .movie-backdrop .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* 반투명 효과 */
+  }
+  
+  /* 상세 정보 */
+  .movie-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: #222;
+    margin-top: -100px; /* 배경 이미지와 겹침 */
+    z-index: 1;
+  }
+  
+  .movie-poster img {
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .movie-info h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .movie-genres {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .movie-overview {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  

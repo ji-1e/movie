@@ -1,0 +1,32 @@
+.movie-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-info {
+    padding: 15px;
+  }
+  
+  .movie-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  
