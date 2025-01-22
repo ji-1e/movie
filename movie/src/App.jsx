@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import MovieDetail from "./MovieDetail";
 
+
 const App = () => {
   return (
     <Routes>

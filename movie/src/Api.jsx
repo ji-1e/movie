@@ -13,14 +13,16 @@ const api = axios.create({
 })
 
 const getPopularMovies = async () => {
+    let test = ''
     //get으로 api 불러옴
-    api.get("/movie/popular")
+    await api.get("/movie/popular")
     //인기 영화 목록애서 성인영화 필터
-    .then((res) => res.data.results.filter((movie) => !movie.adult))
+    .then((res) => test = res.data.results.filter((movie) => !movie.adult))
     .catch((error) => {
         console.error("에러가 날 경우", error) 
         return [];
     })
+    return test
 }
 
 export { api, getPopularMovies }
