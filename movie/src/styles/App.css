@@ -3,11 +3,9 @@
     text-align: center;
   }
   
-  .movie-grid {
-    display: grid;
-    grid-auto-columns: auto;
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: center;
+  .movie-main {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
   }
-  
